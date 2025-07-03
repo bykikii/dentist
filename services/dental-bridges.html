@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dental Bridges | Castlemore Dental Centre</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body class="service-page">
+  <!-- ✅ Styled Header + Navbar -->
+  <header class="service-header">
+    <div class="nav-container">
+      <div class="logo">Castlemore Dental</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html" class="active">Services</a></li>
+        <li><a href="../locations.html">Locations</a></li>
+        <li><a href="../meet-the-team.html">Meet the Team</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ✅ Dental Bridges Section -->
+  <main>
+    <section class="services-section">
+      <div class="services-header">
+        <h3>Dental Bridges</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="../images/dental-bridges.jpeg" alt="Dental Bridges" class="service-img" />
+          <p>Dental bridges are used to replace one or more missing teeth by anchoring artificial teeth to adjacent natural teeth or dental implants. They help restore chewing ability, maintain facial structure, and prevent teeth from shifting.</p>
+          <p><strong>Benefits of Dental Bridges:</strong></p>
+          <ul>
+            <li>Restores function and appearance</li>
+            <li>Prevents shifting of remaining teeth</li>
+            <li>Improves confidence and speech</li>
+          </ul>
+          <a href="../contact.html" class="btn">Book Now</a>
+          <p><a href="../services.html">&laquo; Back to All Services</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Castlemore Dental Centre. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Mobile Menu Script -->
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

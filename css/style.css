@@ -1,0 +1,1052 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+.full-width-section {
+  background-color: #f8f9fc;
+}
+
+
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #f8f9fc;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 100%;
+}
+
+.hero-content h4 {
+  color: #333;
+  font-weight: 500;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.hero-content h1 span {
+  color: #0056ff;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.primary-btn,
+.video-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary-btn {
+  background-color: #0056ff;
+  color: white;
+}
+
+.video-btn {
+  background-color: #e9ecf1;
+  color: #0056ff;
+}
+
+.booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.booking-form input {
+  flex: 1 1 180px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  background-color: #0056ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: #fff;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content h2 span {
+  color: #0056ff;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about-content ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.about-content li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.learn-more-btn {
+  background-color: #0056ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.services-section {
+  padding: 60px 10%;
+  background-color: #f8f9fc;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.services-header h3 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.services-header h3 span {
+  color: #0056ff;
+}
+
+.explore-all-btn {
+  background-color: #0056ff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.service-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.service-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.service-card a {
+  color: #0056ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.why-choose-us {
+  padding: 60px 10%;
+  background-color: #fff;
+}
+
+.why-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.video-preview {
+  position: relative;
+  flex: 1;
+  min-width: 280px;
+}
+
+.video-preview img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0056ff;
+  color: white;
+  font-size: 2rem;
+  padding: 16px 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.why-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.why-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.why-text h2 span {
+  color: #0056ff;
+}
+
+.why-text p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-box {
+  background-color: #f8f9fc;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+  color: #0056ff;
+}
+
+.stat-box p {
+  color: #333;
+}
+/* 📱 Mobile Styles */
+@media (max-width: 768px) {
+  .hero-section,
+  .about-us,
+  .why-container {
+    flex-direction: column;
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .hero-buttons,
+  .booking-form,
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content, .about-content, .why-text {
+    max-width: 100%;
+  }
+
+  .services-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  }
+
+  .explore-all-btn {
+    width: 100%;
+  }
+
+  .booking-form input,
+  .book-btn {
+    width: 100%;
+  }
+}
+/* 🔝 Navbar Styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0056ff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #0056ff;
+}
+.site-footer {
+  background-color: #0056ff;
+  color: white;
+  padding: 40px 10% 20px;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-about,
+.footer-contact,
+.footer-social {
+  flex: 1 1 200px;
+}
+
+.footer-about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-contact h4,
+.footer-social h4 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.footer-contact p,
+.footer-about p {
+  margin: 6px 0;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(100);
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+  font-size: 0.85rem;
+}
+.contact-form-section {
+  padding: 60px 10%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-form-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #0056ff;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #0044d8;
+}
+.locations-section {
+  padding: 60px 10%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.locations-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.location-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.location-card h3 {
+  margin-bottom: 10px;
+  color: #0056ff;
+}
+
+.location-card p {
+  margin: 5px 0;
+}
+
+.call-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #0056ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.book-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #0056ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Booking Form Styling */
+.booking-form-section {
+  padding: 60px 10%;
+  background-color: #f0f4ff;
+  text-align: center;
+}
+
+.booking-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0033cc;
+}
+/* Long Form Only - Full Booking Page */
+.booking-form-full {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-form-full input,
+.booking-form-full textarea {
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: border 0.2s ease;
+}
+
+.booking-form-full input:focus,
+.booking-form-full textarea:focus {
+  border: 1px solid #0056ff;
+}
+
+.booking-form-full button {
+  background-color: #0056ff;
+  color: white;
+  font-size: 1rem;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.booking-form-full button:hover {
+  background-color: #003bb3;
+}
+  .services-grid img {
+      width: 100%;
+      height: 50%;
+    }
+
+.service-card h4.service-name{
+
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.explore-all-btn {
+  display: inline-block;
+  background-color: #0056ff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* About Page Styles */
+
+.about-section {
+  background-color: #f8f9fc;
+  padding: 60px 10%;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #0056ff;
+}
+
+.about-section .intro {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* align top edges */
+  flex-wrap: wrap;           /* wrap on smaller screens */
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+
+.about-text {
+  flex: 1 1 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+.about-text img{
+    align-content: center;
+    width: 80%;
+    height:auto;
+}
+
+.about-text h2 {
+  color: #0056ff;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.awards-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Footer tweaks */
+.site-footer {
+  background-color: #0056ff;
+  color: white;
+  padding: 20px 10%;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  border-radius: 0 0 12px 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.team-member-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-member-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.team-member-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.team-member-card .role {
+  font-weight: 600;
+  color: #0056ff;
+  margin-bottom: 10px;
+}
+
+.team-member-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.service-detail-section {
+  padding: 60px 10%;
+  background-color: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-detail-section h1 {
+  font-size: 2.5rem;
+  color: #0056ff;
+  margin-bottom: 20px;
+}
+
+.service-detail-section img {
+  max-width: 400px;
+  width: 30%;
+  height: 30%;
+  margin: 30px 0;
+  border-radius: 8px;
+}
+/* Make the service image smaller and nicely fitted */
+.services-grid .service-card img.service-img {
+  width: 100%;        /* full width inside card */
+  max-width: 320px;   /* max width to keep it smaller */
+  height: auto;       /* keep aspect ratio */
+  border-radius: 12px;
+  margin: 0 auto 20px auto; /* center image with bottom spacing */
+  display: block;
+  object-fit: cover;  /* crop if needed */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Service card: center contents and add padding */
+.services-grid .service-card {
+  max-width: 400px; /* limit card width */
+  margin: 0 auto;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+/* Service card text */
+.services-grid .service-card p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* Form styling */
+
+/* Inputs and textarea */
+.booking-form input,
+.booking-form textarea {
+  padding: 12px 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* Focus effect */
+.booking-form input:focus,
+.booking-form textarea:focus {
+  border-color: #0056ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 86, 255, 0.4);
+}
+
+/* Button styling */
+.booking-form button.btn {
+  background-color: #0056ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button.btn:hover {
+  background-color: #003bb3;
+}
+
+/* 'Call Now' button styling */
+.call-now-mobile {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #0056ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.call-now-mobile:hover {
+  background-color: #003bb3;
+}
+
+/* Responsive tweak: on small screens, service card width 90% */
+@media (max-width: 480px) {
+  .services-grid .service-card {
+    max-width: 90vw;
+    padding: 20px 15px;
+  }
+  
+  .services-grid .service-card img.service-img {
+    max-width: 100%;
+  }
+}
+/* Only style booking form inside service-page */
+.service-page .booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.service-page .booking-form input,
+.service-page .booking-form textarea {
+  padding: 12px 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+.service-page .booking-form input:focus,
+.service-page .booking-form textarea:focus {
+  border-color: #0056ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 86, 255, 0.4);
+}
+
+.service-page .booking-form button.btn {
+  background-color: #0056ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-page .booking-form button.btn:hover {
+  background-color: #003bb3;
+}
+/* Button style for Book Now on service pages */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0056ff;  /* blue background */
+  color: white;               /* white text */
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #003bb3;  /* darker blue */
+  color: white;               /* keep text white */
+}
+
+.btn {
+  color: white !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.reviews-slider {
+  position: relative;
+  flex: 1;
+  min-width: 280px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-slider .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.reviews-slider img {
+  width: 100%;
+  height: 700px; /* ✅ Control the height */
+  object-fit: cover; /* ✅ Crop the image to fit nicely */
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+/* 🔹 Service Page Header & Navbar */
+.service-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 10%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-header .logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0056ff;
+}
+
+.service-header .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.service-header .nav-links li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.service-header .nav-links li a:hover,
+.service-header .nav-links li a.active {
+  color: #0056ff;
+}
+
+/* Toggle Button */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #0056ff;
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+  .service-header .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  .service-header .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+.services-section.services-header h3{
+  text-align: center;
+}
+

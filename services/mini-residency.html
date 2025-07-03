@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Residency | Castlemore Dental Centre</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body class="service-page">
+  
+   
+   <header class="service-header">
+    <div class="nav-container">
+      <div class="logo">Castlemore Dental</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html" class="active">Services</a></li>
+        <li><a href="../locations.html">Locations</a></li>
+        <li><a href="../meet-the-team.html">Meet the Team</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+   <section class="services-section">
+    <div class="services-header">
+       <h3>Mini Residency Program</h3>
+      </div>
+    
+<div class="services-grid">
+      <div class="service-card">
+  <img src="../images/mini-residency.jpeg" alt="Mini Residency Course" class="service-img" />
+  <p>Our Mini Residency Braces Course is a special program where patients receive discounted braces treatment...</p>
+  <!-- form or booking button goes here -->
+    
+
+  <form action="https://formsubmit.co/your@email.com" method="POST" class="booking-form">
+  <h4>Request More Info or Book a Spot</h4>
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="4" placeholder="Tell us how we can help you"></textarea>
+  <input type="hidden" name="_subject" value="Booking Request - Mini Residency" />
+  <button type="submit" class="btn">Send Request</button>
+</form>
+
+<a href="../locations.html" class="btn">Book Now</a>
+      
+      <p><a href="../services.html">&laquo; Back to All Services</a></p>
+      <a href="tel:+1905-654-2273" class="call-now-mobile">Call Now</a>
+      </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Castlemore Dental Centre. All rights reserved.</p>
+  </footer>
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Braces | Castlemore Dental</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body class="service-page">
+  <!-- ✅ Styled Navbar/Header -->
+  <header class="service-header">
+    <div class="nav-container">
+      <div class="logo">Castlemore Dental</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html" class="active">Services</a></li>
+        <li><a href="../locations.html">Locations</a></li>
+        <li><a href="../meet-the-team.html">Meet the Team</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ✅ Braces Detail Section -->
+  <section class="services-section">
+    <div class="services-header">
+      <h3>Braces </h3>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="../images/braces.jpg" alt="Braces">
+        <h4>Orthodontic Braces</h4>
+        <p>Our braces treatments help align and straighten teeth, correct bite issues, and improve overall dental health. We offer traditional metal braces, ceramic braces, and clear aligners customized to your needs.</p>
+        <p><strong>Why choose our braces treatment?</strong></p>
+        <ul>
+          <li>Customized orthodontic care plans</li>
+          <li>Advanced and discreet options available</li>
+          <li>Flexible payment options</li>
+        </ul>
+        <a href="../contact.html" class="btn">Book Now</a>
+        <p><a href="../services.html">&laquo; Back to All Services</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Castlemore Dental Centre. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Mobile Nav Script -->
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
